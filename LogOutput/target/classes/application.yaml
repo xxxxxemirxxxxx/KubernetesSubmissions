@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: LogOutput
+  main:
+    banner-mode: off
+
+app:
+  log-interval-ms: 5000
