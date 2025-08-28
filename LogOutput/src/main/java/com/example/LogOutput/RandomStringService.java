@@ -1,4 +1,4 @@
-package com.example.LogOutput;
+package com.example.logoutput;
 
 import org.springframework.stereotype.Service;
 

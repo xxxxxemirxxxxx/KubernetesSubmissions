@@ -1,4 +1,4 @@
-package com.example.LogOutput;
+package com.example.logoutput;
 
 import org.slf4j.LoggerFactory;
 import org.springframework.scheduling.annotation.Scheduled;

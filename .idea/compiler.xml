@@ -6,13 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="logoutput" />
         <module name="LogOutput" />
+        <module name="todoapp" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Todo-App" target="21" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="LogOutput" options="-parameters" />
+      <module name="logoutput" options="-parameters" />
+      <module name="todoapp" options="-parameters" />
     </option>
   </component>
 </project>

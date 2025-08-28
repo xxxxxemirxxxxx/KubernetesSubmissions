@@ -1,4 +1,4 @@
-package com.example.LogOutput;
+package com.example.logoutput;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

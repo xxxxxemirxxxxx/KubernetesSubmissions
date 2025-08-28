@@ -1,8 +1,13 @@
 spring:
   application:
-    name: LogOutput
+    name: logoutput
   main:
     banner-mode: off
 
 app:
   log-interval-ms: 5000
+
+# disable spring-specific stuff in log
+logging:
+  pattern:
+    console: "%msg%n"

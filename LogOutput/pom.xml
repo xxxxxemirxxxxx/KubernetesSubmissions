@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>LogOutput</artifactId>
+	<artifactId>logoutput</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>LogOutput</name>
+	<name>logoutput</name>
 	<description>Demo project for Helsinki MOOC</description>
 	<url/>
 	<licenses>

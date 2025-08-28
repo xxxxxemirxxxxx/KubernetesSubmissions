@@ -1,6 +1,6 @@
 spring:
   application:
-    name: LogOutput
+    name: logoutput
   main:
     banner-mode: off
 
