@@ -17,11 +17,4 @@ spec:
       containers:
         - name: log-output
           image: swipped/logoutput:2.0
-          imagePullPolicy: IfNotPresent
-          resources:
-            requests:
-              cpu: "50m"
-              memory: "64Mi"
-            limits:
-              cpu: "200m"
-              memory: "128Mi"
+          imagePullPolicy: Always
