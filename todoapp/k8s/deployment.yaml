@@ -2,8 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: todoapp-deployment
-  labels:
-    app: todoapp
 spec:
   replicas: 1
   selector:
@@ -16,8 +14,8 @@ spec:
     spec:
       containers:
         - name: todoapp
-          image: swipped/todoapp:1.0
-          imagePullPolicy: IfNotPresent
+          image: swipped/todoapp:latest
+          imagePullPolicy: always
           ports:
             - containerPort: 3333
           env:
