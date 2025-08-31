@@ -1,5 +1,3 @@
-
-1. Deploy with: kubectl apply -f k8s/deployment.yaml
-2. Get your pod name with: kubectl get pods
-2. Implement port forwarding with: kubectl port-forward "your_pod_name" 3000:3333
-3. To confirm it's working, type in browser: localhost:3000/status
+1. Create cluser with port mapping: k3d cluster create --port 8082:30333@agent:0 -p 8081:80@loadbalancer --agents 2
+2. Deploy with: kubectl apply -f k8s/deployment.yaml
+3. Implement service (port mapping) with: kubectl apply -f k8s/service.yaml
