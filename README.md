@@ -7,3 +7,6 @@ Chapter 2
 - <a href="https://github.com/xxxxxemirxxxxx/KubernetesSubmissions/releases/tag/1.3">1.3</a>
 - <a href="https://github.com/xxxxxemirxxxxx/KubernetesSubmissions/releases/tag/1.4">1.4</a>
 - <a href="https://github.com/xxxxxemirxxxxx/KubernetesSubmissions/releases/tag/1.5">1.5</a>
+- <a href="https://github.com/xxxxxemirxxxxx/KubernetesSubmissions/releases/tag/1.6">1.6</a>
+
+
